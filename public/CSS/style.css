@@ -1,0 +1,184 @@
+body {
+  font-family: "Danford", sans-serif;
+  color: black;
+  /*width: 100vw;
+  height: 100vh;*/
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-direction: row;
+  background: rgb(249, 249, 245);
+}
+
+header, main {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  padding: 1.25rem;
+}
+
+header {
+  width: 40%;
+  background: #f0e4e4;
+  box-shadow: 2px 2px 2px grey;
+  justify-content: center;
+}
+
+.header__container {
+  display: flex;
+  margin: 1rem;
+  width: fit-content;
+}
+
+h1 {
+  text-shadow: .5px .5px 1px black;
+  font-size: 2rem;
+  padding: 0 1rem 0 1rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+  padding: 1.5rem 1rem .25rem 1rem;
+  line-height: 30px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding: 1rem 1.5rem .5rem 2rem;
+}
+
+.header__info {
+ align-items: center;
+}
+
+.header__container-hard {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1rem;
+}
+
+.header__container-soft, .header__container-hobbies  {
+  padding: .5rem .5rem .5rem 1.5rem;
+}
+
+.header__details-hard {
+  width: 40%;
+  gap: 0.25rem;   
+}
+
+.header__hard-skills {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  gap: 1rem;
+}
+
+.header__Texticone {
+  display: flex;
+  flex-direction: row;
+  align-items:normal;
+  gap: .5rem;
+  padding: .5rem .5rem .5rem 1.5rem;
+}
+
+.header__container-portrait  {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+}
+
+.photo__portrait {
+  border-radius: 100%;
+  overflow: hidden;
+  width: 60%;
+  margin: auto;
+  box-shadow: 2px 2px 2px grey;
+  background-size:cover;
+  margin-top: 1rem;;
+}
+
+.header__portrait-texte {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: auto;
+  bottom: 2rem;;
+}
+
+.header__info {
+  justify-content: center;
+}
+
+.header__container {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  gap: .5rem;
+}
+
+.header__details {
+  display:flex;
+  width: 40%;
+}
+
+.header__liste, .main__details {
+  margin: 0.5rem 2rem .5rem 2rem;
+}
+
+.icone {
+  display: block;
+  height: 1.5rem;
+}
+
+.main {
+  top: 2rem;
+  padding: 1rem 1rem 2rem 2rem;
+  bottom: 2rem;
+  width: 60%;
+  width: fit-content;
+  overflow-y: scroll;
+}
+
+.main__content {
+  display: flex;
+  flex-direction: row;
+  align-items:baseline;
+  gap: 1rem;
+}
+
+.main__content-details {
+  display: block;
+  width: 70%;
+}
+
+.main__title {
+  font-size: 2rem;
+  margin: 1rem 2rem .5rem 2rem;
+}
+
+.main__paragraphe {
+  margin: 1rem 2rem 0 2rem;
+  line-height: 25px;
+}
+
+.main__date {
+  width: 22%;
+  padding: 1rem;
+  text-align: right;
+}
+
+hr {
+  color:grey;
+  size: .75rem;
+  width: 80%;
+  right: 0;
+}
+
+footer {
+  position: fixed;
+  bottom:0;
+  margin: 2rem;
+  text-align: center;
+}
